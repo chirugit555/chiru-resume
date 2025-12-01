@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 5px;
+}
+.section-table th, .section-table td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+nav.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav.menu button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav.menu button:hover {
+    background-color: #1b5e20;
+}
+
+.section {
+    display: none; /* hidden by default -->
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
